@@ -156,7 +156,7 @@ margin: 0 auto;
 }
 .adress-contacts {
     font-style: normal;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .contacts-list .link {
@@ -315,6 +315,13 @@ flex-direction: row;
 }
 .our-team-list-name {
     padding: 32px 0;
+    display: flex;
+width: 232px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8px;
+
 }
 .team-list {
     display: flex;
@@ -498,7 +505,8 @@ line-height: 1.17;
     margin-bottom: 16px;   
 }
 .footer-list {
-    display: flex;
+    display: inline-flex;
+    align-items: flex-start;
     gap: 16px;
 }
 .footer-title {
@@ -523,5 +531,8 @@ line-height: 1.17;
 .svg-footer {
     fill: #f4f4fd;
 }
-
+.social {
+    width: 208px;
+height: 80px;
+}
 
